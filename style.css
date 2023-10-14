@@ -5,9 +5,32 @@ body {
 }
 
 li {
+    color: #f0cd6e;
     list-style-type: none;
 }
 
 a {
+    color: #f0cd6e;
     text-decoration: none;
+}
+
+.header {
+    background: #2a3f3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 20vh;
+}
+
+.header .logo {
+    font-size: 2em;
+    font-weight: 1000;
+    color: #f0cd6e;
+}
+
+.header .links {
+    font-size: 1.5em;
+    font-weight: 100;
+    display: flex;
+    gap: 1em;
 }
