@@ -20,10 +20,11 @@ a {
 
 .header {
     background: #2a3f3f;
+    padding: 1vh 20vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1vh 20vh;
+    flex-wrap: wrap;
 }
 
 .header .logo {
@@ -37,4 +38,56 @@ a {
     font-weight: 100;
     display: flex;
     gap: 1em;
+}
+
+/* Hero */
+
+.hero {
+    display: flex;
+    padding: 5vh 20vh;
+    background: #2a3f3f;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .title {
+    color: #f0cd6e;
+    font-size: 2.5em;
+    font-weight: 1000;
+    flex: 1;
+    min-width: 100px;
+    max-width: 490px;
+}
+
+.hero .text {
+    color: #f0cd6e;
+    font-size: 1.5em;
+    font-weight: 100;
+    flex: 1;
+    min-width: 100px;
+    max-width: 490px;
+}
+
+.hero .illustration {
+    border: 2px solid #f0cd6e;
+    min-width: 100px;
+    max-width: 490px;
+    flex: 1;
+}
+
+.hero .button,
+.hero a {
+    background: #f0cd6e;
+    color: #2a3f3f;
+    font-size: 1em;
+    border-radius: 8px;
+    border-style: none;
+    margin: 2vh 0;
+    align-self: center;
 }
