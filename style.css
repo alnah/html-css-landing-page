@@ -91,3 +91,36 @@ a {
     margin: 2vh 0;
     align-self: center;
 }
+
+/* Thumbnails */
+
+.thumbnails {
+    background: #f0cd6e;
+}
+
+.thumbnails .title {
+    color: #2a3f3f;
+    font-size: 2.3em;
+    font-weight: 1000;
+    padding: 5vh 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnails .container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10vh;
+
+}
+
+.thumbnails .text {
+    color: #2a3f3f;
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+    max-width: 200px;
+    padding-top: 2vh;
+}
