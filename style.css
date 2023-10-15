@@ -86,7 +86,7 @@ a {
     background: #f0cd6e;
     color: #2a3f3f;
     font-size: 1em;
-    border-radius: 8px;
+    border-radius: 0.5vh;
     border-style: none;
     margin: 2vh 0;
     align-self: center;
@@ -149,4 +149,46 @@ a {
     font-size: 2em;
     font-weight: 500;
     text-align: justify;
+}
+
+/* Footer */
+
+.footer {
+    background: #f0cd6e;
+    padding: 5vh 20vh;
+}
+
+.footer .frame {
+    border-radius: 1vh;
+    padding: 5vh 5vh;
+    background: #2a3f3f;
+    color: #f0cd6e;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer .title {
+    font-size: 2em;
+    font-weight: 1000;
+    text-align: justify;
+}
+
+.footer .text {
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: justify;
+}
+
+
+.footer .button,
+.footer a {
+    background: #f0cd6e;
+    color: #2a3f3f;
+    font-size: 1.1em;
+    border-radius: 0.5vh;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
