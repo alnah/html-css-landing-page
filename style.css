@@ -43,9 +43,9 @@ a {
 /* Hero */
 
 .hero {
-    display: flex;
     padding: 5vh 20vh;
     background: #2a3f3f;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -74,7 +74,7 @@ a {
     max-width: 490px;
 }
 
-.hero .illustration {
+.hero img {
     border: 2px solid #f0cd6e;
     min-width: 100px;
     max-width: 490px;
